@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "ZWUtilsKit.framework"
-  s.ios.vendored_library = "ZWUtilsKit.framework"
+  s.preserve_paths = "libGeTuiSdk.a"
+  s.ios.vendored_library = "libGeTuiSdk.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
