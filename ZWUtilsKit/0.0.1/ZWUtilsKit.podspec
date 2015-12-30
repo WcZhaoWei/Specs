@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   s.preserve_paths = "ZWUtilsKit.framework"
-
+  s.ios.vendored_library = "ZWUtilsKit.framework"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
